@@ -1,0 +1,115 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Webpage</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f7f7f7;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #a8d5e2;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-family: 'Verdana', sans-serif;
+        }
+        nav {
+            background-color: #c3d3e6;
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
+        }
+        nav a {
+            color: #333;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 1.2em;
+        }
+        nav a:hover {
+            color: #007acc;
+        }
+        section {
+            padding: 20px;
+            margin: 20px 0;
+        }
+        .about-me, .projects, .contact, .newsletter {
+            background-color: #e3f3f9;
+            border-radius: 8px;
+            padding: 20px;
+        }
+        h2 {
+            font-family: 'Georgia', serif;
+            color: #005f73;
+        }
+        .reactive-item:hover {
+            transform: scale(1.05);
+            transition: transform 0.3s;
+        }
+        footer {
+            background-color: #a8d5e2;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to My Personal Webpage</h1>
+</header>
+
+<nav>
+    <a href="#about-me">About Me</a>
+    <a href="#projects">Current Projects</a>
+    <a href="#contact">Contact</a>
+    <a href="#newsletter">Newsletter</a>
+</nav>
+
+<section id="about-me" class="about-me">
+    <h2>About Me</h2>
+    <p>Hello! I am [Your Name], a passionate professional in [Your Field]. I enjoy working on innovative projects and am always eager to learn and grow. Welcome to my personal webpage where you can learn more about my current projects, get in touch with me, and subscribe to my newsletter for updates.</p>
+</section>
+
+<section id="projects" class="projects">
+    <h2>Current Projects</h2>
+    <div class="reactive-item">
+        <h3>Project 1</h3>
+        <p>Description of your current project 1.</p>
+    </div>
+    <div class="reactive-item">
+        <h3>Project 2</h3>
+        <p>Description of your current project 2.</p>
+    </div>
+</section>
+
+<section id="contact" class="contact">
+    <h2>Contact</h2>
+    <p>If you would like to get in touch, please email me at <a href="mailto:your.email@example.com">your.email@example.com</a>.</p>
+</section>
+
+<section id="newsletter" class="newsletter">
+    <h2>Newsletter</h2>
+    <p>Subscribe to my newsletter to stay updated on my latest projects and insights.</p>
+    <form action="#">
+        <input type="email" name="email" placeholder="Your Email" required>
+        <button type="submit">Subscribe</button>
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2024 [Your Name]. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
